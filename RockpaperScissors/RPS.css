@@ -1,0 +1,64 @@
+main {
+  justify-items: center;
+  align-items: center;
+}
+
+.paper-button, .scissors-button, .rock-button {
+  padding: 55px;
+  background-color: rgb(27, 26, 26);
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  .emoji-pic {
+   width: 80px;
+   
+  }
+  
+  .result {
+    font-size: 45px;
+    font-weight: 700;
+    
+  }
+  
+  .moves, .score {
+    font-size: 27px;
+  }
+  
+  .move-emoji {
+    width: 80px;
+  }
+  
+  .score {
+    margin: 100px 50px;
+  }
+
+  .reset-score-button,
+  .auto-play-button {
+padding: 13px 25px 13px 25px;
+font-size: 25px;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+margin: 10px 20px;
+background: linear-gradient(45deg, rgb(202, 198, 202) 10%, rgb(13, 211, 194) 90%) ;
+  }
+
+ .yes-reset-button,
+ .no-reset-button {
+  padding: 10px 30px;
+  font-size: large;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 20px;
+  margin: 0px 10px;
+ }
+
+  @media (max-width: 700px) {
+    .paper-button, .scissors-button, .rock-button {
+      padding: 35px
+    }
+  }
